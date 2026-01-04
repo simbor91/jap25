@@ -17,9 +17,10 @@
 }
 
 /* Togliamo sfondo + usiamo quello del viaggio */
-body {
+html {
   background-color: #FEE9CA;
   height: auto;
+  min-width: 80dvw;
 }
 main {
   /* background: linear-gradient(215deg, var(--white) 0%, var(--pink) 80%); */
@@ -28,7 +29,7 @@ main {
     url(../img/japan25/torii_fuji.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   padding: 10px;
   color: var(--white);
 }
@@ -50,7 +51,7 @@ main {
   text-shadow: 2px 2px 5px var(--pink);
 }
 .dates {
-  max-width: 300px;
+  max-width: 350px;
   padding: 10px;
   background-color: var(--violet);
   border-radius: 20px;
@@ -92,17 +93,6 @@ a {
   padding: 1px;
 }
 
-#volo-A,
-#volo-R {
-  max-width: 300px;
-}
-span {
-  background-color: red;
-  color: white;
-  font-weight: bold;
-  padding: 2px;
-}
-
 /* Lista */
 ol, ul {
   margin-inline-start: 30px;
@@ -118,11 +108,10 @@ li {
 table {
   margin: 40px auto;
   border-collapse: collapse;
-  width: 90%;
-  max-width: 600px;
+  width: 70%;
   border: 2px dashed var(--night);
   text-align: left;
-  color: #481325;
+  color: #210911;
 }
 th, td {
   border: 2px dashed var(--night);
